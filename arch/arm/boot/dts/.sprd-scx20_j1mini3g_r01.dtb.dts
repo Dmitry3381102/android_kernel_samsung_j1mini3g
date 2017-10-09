@@ -1,4 +1,5 @@
 # 1 "arch/arm/boot/dts/sprd-scx20_j1mini3g_r01.dts"
+# 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "arch/arm/boot/dts/sprd-scx20_j1mini3g_r01.dts"
 # 9 "arch/arm/boot/dts/sprd-scx20_j1mini3g_r01.dts"
@@ -24,9 +25,9 @@
 /include/ "sc2723-regulators.dtsi"
 /include/ "sprd-sound.dtsi"
 /include/ "sprd-scx20_j1mini3g_battery_r00.dtsi"
-# 1 "/home/amardeep.s/OSLV/SM-J105H_MEA_EGY/android/kernel/arch/arm/boot/dts/include/dt-bindings/gpio/gpio.h" 1
+# 1 "/home/gapirov/Android/kernel/android_kernel_samsung_j1mini3g-cm-12.1/arch/arm/boot/dts/include/dt-bindings/gpio/gpio.h" 1
 # 32 "arch/arm/boot/dts/sprd-scx20_j1mini3g_r01.dts" 2
-# 1 "/home/amardeep.s/OSLV/SM-J105H_MEA_EGY/android/kernel/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/irq.h" 1
+# 1 "/home/gapirov/Android/kernel/android_kernel_samsung_j1mini3g-cm-12.1/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/irq.h" 1
 # 33 "arch/arm/boot/dts/sprd-scx20_j1mini3g_r01.dts" 2
 / {
  model = "Spreadtrum SP8835EB board";
