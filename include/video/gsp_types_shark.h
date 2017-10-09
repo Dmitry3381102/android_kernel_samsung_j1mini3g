@@ -261,7 +261,6 @@ extern   "C"
         uint16_t rect_h;
     }
 
-
     GSP_RECT_T;
 
 
