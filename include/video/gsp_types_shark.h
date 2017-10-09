@@ -261,6 +261,7 @@ extern   "C"
         uint16_t rect_h;
     }
 
+
     GSP_RECT_T;
 
 
@@ -438,7 +439,7 @@ typedef struct __GSP_Capability_
         GSP_TRIGGER_RUN,
         GSP_WAIT_FINISH,
         GSP_GET_CAPABILITY,
-        //GSP_GET_ADDR_TYPE,
+        GSP_GET_ADDR_TYPE,
     };
 
 #define GSP_IO_MAGIC                'G'
@@ -446,7 +447,7 @@ typedef struct __GSP_Capability_
 #define GSP_IO_TRIGGER_RUN          _IO(GSP_IO_MAGIC, GSP_TRIGGER_RUN)
 #define GSP_IO_WAIT_FINISH          _IO(GSP_IO_MAGIC, GSP_WAIT_FINISH)
 #define GSP_IO_GET_CAPABILITY	     _IOW(GSP_IO_MAGIC, GSP_GET_CAPABILITY,GSP_CAPABILITY_T)
-//#define GSP_IO_GET_ADDR_TYPE          _IO(GSP_IO_MAGIC, GSP_GET_ADDR_TYPE)
+#define GSP_IO_GET_ADDR_TYPE          _IO(GSP_IO_MAGIC, GSP_GET_ADDR_TYPE)
 
 
 #ifndef CEIL
